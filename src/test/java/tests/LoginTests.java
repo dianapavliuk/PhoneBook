@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -12,6 +13,7 @@ public class LoginTests extends TestBase {
 
     @Test
    public void loginPositiveTest(){
+        User user = new User("love@gmail.com", "abC250712#");
             app.getHelperUser().openLoginRegistrationForm();
         //open login form
        // wd.findElement(By.xpath("//*[.='LOGIN']")).click();
@@ -27,7 +29,7 @@ public class LoginTests extends TestBase {
        // passInput.clear();
        // passInput.sendKeys("abC250712#");
 
-        app.getHelperUser().fillLoginRegistrationForm("love@gmail.com", "abC250712#");
+        app.getHelperUser().fillLoginRegistrationForm(user);
 
 
         //click on button login
