@@ -1,0 +1,56 @@
+2023-10-14 16:22:15,641 INFO  m.ApplicationManager [ApplicationManager.java:30] Test started on Chrome
+2023-10-14 16:22:25,375 INFO  m.ApplicationManager [ApplicationManager.java:41] Navigated to the link ---https://telranedu.web.app/home
+2023-10-14 16:22:25,428 INFO  t.TestBase [TestBase.java:20] Started test ----> loginPositiveTestUserDTO
+2023-10-14 16:22:25,430 INFO  m.NGListner [NGListner.java:15] Start og the test --->loginPositiveTestUserDTO
+2023-10-14 16:22:25,430 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-10-14 16:22:25,517 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //*[.='LOGIN']is found
+2023-10-14 16:22:25,911 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //button[1]
+2023-10-14 16:22:26,020 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //button[1]is found
+2023-10-14 16:22:26,248 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.tagName: button
+2023-10-14 16:22:27,728 INFO  m.WDListener [WDListener.java:26] element with locator --->By.tagName: buttonis found
+2023-10-14 16:22:27,732 INFO  m.NGListner [NGListner.java:27] Failure test --->java.lang.AssertionError: expected [true] but found [false]
+2023-10-14 16:22:27,734 INFO  t.TestBase [TestBase.java:24] Finished test ----> loginPositiveTestUserDTO
+2023-10-14 16:22:27,734 INFO  t.TestBase [TestBase.java:25] ==================================================
+2023-10-14 16:22:27,735 INFO  t.TestBase [TestBase.java:20] Started test ----> loginPositiveTestUserDTO
+2023-10-14 16:22:27,735 INFO  m.NGListner [NGListner.java:15] Start og the test --->loginPositiveTestUserDTO
+2023-10-14 16:22:27,735 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-10-14 16:22:27,767 INFO  m.WDListener [WDListener.java:32] something went wrong!!!
+2023-10-14 16:22:27,769 INFO  m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=118.0.5993.70): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:7100:ccdd:7b94:e540:1d5f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/gq/rwgcn5sx47j...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 641c9aede047a37597161a2f28bd7ecc
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-14 16:22:27,769 INFO  m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=118.0.5993.70): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:7100:ccdd:7b94:e540:1d5f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/gq/rwgcn5sx47j...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 641c9aede047a37597161a2f28bd7ecc
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-14 16:22:28,380 INFO  m.WDListener [WDListener.java:39] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-1347.png
+2023-10-14 16:22:28,382 INFO  m.NGListner [NGListner.java:27] Failure test --->org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=118.0.5993.70): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:7100:ccdd:7b94:e540:1d5f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/gq/rwgcn5sx47j...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 641c9aede047a37597161a2f28bd7ecc
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-14 16:22:28,385 INFO  t.TestBase [TestBase.java:24] Finished test ----> loginPositiveTestUserDTO
+2023-10-14 16:22:28,385 INFO  t.TestBase [TestBase.java:25] ==================================================
+2023-10-14 16:22:28,392 INFO  t.TestBase [TestBase.java:20] Started test ----> loginPositiveTestUserDTO
+2023-10-14 16:22:28,394 INFO  m.NGListner [NGListner.java:15] Start og the test --->loginPositiveTestUserDTO
+2023-10-14 16:22:28,395 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-10-14 16:22:28,436 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //*[.='LOGIN']is found
+2023-10-14 16:22:28,509 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //button[1]
+2023-10-14 16:22:28,527 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //button[1]is found
+2023-10-14 16:22:28,632 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.tagName: button
+2023-10-14 16:22:29,123 INFO  m.WDListener [WDListener.java:26] element with locator --->By.tagName: buttonis found
+2023-10-14 16:22:29,125 INFO  m.NGListner [NGListner.java:27] Failure test --->java.lang.AssertionError: expected [true] but found [false]
+2023-10-14 16:22:29,134 INFO  t.TestBase [TestBase.java:24] Finished test ----> loginPositiveTestUserDTO
+2023-10-14 16:22:29,137 INFO  t.TestBase [TestBase.java:25] ==================================================
+2023-10-14 16:22:29,242 INFO  m.ApplicationManager [ApplicationManager.java:51] Test completed

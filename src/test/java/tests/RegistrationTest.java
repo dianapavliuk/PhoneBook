@@ -1,9 +1,7 @@
 package tests;
 
-import manager.HelperBase;
-import models.User;
+import model.User;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -14,9 +12,11 @@ public class RegistrationTest extends TestBase {
 
 
 
-   @Test
+   @Test(groups = {"positive"})
    public void registrationPositiveTest() {
        int i = (int)(System.currentTimeMillis()/1000)%3600;
+       String email = "jessy"+ i +"@gmail.com";
+       String password = "abC121212#";
        User user = new User("jessy"+ i +"@gmail.com", "abC121212#");
        //open login form
        app.getHelperUser().openLoginRegistrationForm();
@@ -37,6 +37,7 @@ public class RegistrationTest extends TestBase {
        //    passInput.sendKeys("abC250712#");
 
        //click on button registration
+       logger.info("registrationPositiveTest starts with:"+ email+ " and "+ password );
        app.getHelperUser().submitRegistration();
        //  wd.findElement(By.xpath("//button[2]")).click();
        //assert
@@ -47,5 +48,6 @@ public class RegistrationTest extends TestBase {
 
 
    }
+
 
 }
