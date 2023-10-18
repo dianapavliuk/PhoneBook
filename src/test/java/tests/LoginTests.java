@@ -65,6 +65,23 @@ public class LoginTests extends TestBase {
 
 
         }
+    @Test (groups = {"positive"})
+    public void loginPositiveTestProps() {
+
+
+        //  User user = User.builder().email("love@gmail.com")
+        //        .password("abC250712#").build();
+        app.getHelperUser().openLoginRegistrationForm();
+
+        app.getHelperUser().fillLoginRegistrationForm(app.getEmail(), app.getPassword());
+
+        app.getHelperUser().submitLogin();
+        app.getHelperUser().pause(3000);
+
+        Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
+
+
+    }
     @Test(groups = {"positive"}, dataProvider = "userDTO", dataProviderClass = ProviderData.class)
     public void loginPositiveUserDTO(User user){
         // open login form

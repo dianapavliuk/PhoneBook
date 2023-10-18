@@ -1,14 +1,21 @@
 package tests;
 
+import manager.ProviderData;
 import model.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase {
 
 
-
+    @BeforeMethod(alwaysRun = true)
+    public void precondition(){
+        if(app.getHelperUser().isLogged()){
+            app.getHelperUser().logout();
+        }
+    }
 
 
 
@@ -48,6 +55,24 @@ public class RegistrationTest extends TestBase {
 
 
    }
+    @Test(groups = {"positive"}, dataProvider = "registrationCSV", dataProviderClass = ProviderData.class)
+    public void registrationPositiveTestCSV(User user) {
+        String email = user.getEmail();
+        String password = user.getPassword();
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(email, password);
+                // fillLoginRegistrationForm(email, password);
+        app.getHelperUser().submitRegistration();
+        logger.info("registrationPositiveTest starts with:" + email + " & " + password);
+        Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
+    }
+
+
+
+
+
+
+
 
 
 }

@@ -1,0 +1,129 @@
+2023-10-17 15:38:24,643 INFO  m.ApplicationManager [ApplicationManager.java:30] Test started on Chrome
+2023-10-17 15:38:33,350 INFO  m.ApplicationManager [ApplicationManager.java:41] Navigated to the link ---https://telranedu.web.app/home
+2023-10-17 15:38:33,408 INFO  t.TestBase [TestBase.java:20] Started test ----> registrationPositiveTestCSV
+2023-10-17 15:38:33,412 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-10-17 15:38:33,502 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //*[.='LOGIN']is found
+2023-10-17 15:38:33,924 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //input[1]
+2023-10-17 15:38:34,045 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //input[1]is found
+2023-10-17 15:38:34,763 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //input[2]
+2023-10-17 15:38:34,780 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //input[2]is found
+2023-10-17 15:38:34,951 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //button[2]
+2023-10-17 15:38:34,975 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //button[2]is found
+2023-10-17 15:38:35,128 INFO  t.TestBase [RegistrationTest.java:59] registrationPositiveTest starts with:jessy1710_1@mail.com & 
+2023-10-17 15:38:35,128 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.tagName: button
+2023-10-17 15:38:36,018 INFO  m.WDListener [WDListener.java:26] element with locator --->By.tagName: buttonis found
+2023-10-17 15:38:36,025 INFO  t.TestBase [TestBase.java:24] Finished test ----> registrationPositiveTestCSV
+2023-10-17 15:38:36,025 INFO  t.TestBase [TestBase.java:25] ==================================================
+2023-10-17 15:38:36,026 INFO  t.TestBase [TestBase.java:20] Started test ----> registrationPositiveTestCSV
+2023-10-17 15:38:36,029 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-10-17 15:38:36,063 INFO  m.WDListener [WDListener.java:32] something went wrong!!!
+2023-10-17 15:38:36,065 INFO  m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!}
+  (Session info: chrome=118.0.5993.70): Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:46aa:fd00:505e:1aa9:956f:7c59%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/gq/rwgcn5sx47j...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce1eecaa60ac0930504a60939a5f3531
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-17 15:38:36,066 INFO  m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!}
+  (Session info: chrome=118.0.5993.70): Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:46aa:fd00:505e:1aa9:956f:7c59%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/gq/rwgcn5sx47j...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce1eecaa60ac0930504a60939a5f3531
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-17 15:38:36,733 INFO  m.WDListener [WDListener.java:39] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-2316.png
+2023-10-17 15:38:36,743 INFO  t.TestBase [TestBase.java:24] Finished test ----> registrationPositiveTestCSV
+2023-10-17 15:38:36,743 INFO  t.TestBase [TestBase.java:25] ==================================================
+2023-10-17 15:38:36,745 INFO  t.TestBase [TestBase.java:20] Started test ----> registrationPositiveTestCSV
+2023-10-17 15:38:36,745 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-10-17 15:38:36,804 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //*[.='LOGIN']is found
+2023-10-17 15:38:36,892 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //input[1]
+2023-10-17 15:38:36,915 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //input[1]is found
+2023-10-17 15:38:37,081 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //input[2]
+2023-10-17 15:38:37,106 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //input[2]is found
+2023-10-17 15:38:37,195 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //button[2]
+2023-10-17 15:38:37,221 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //button[2]is found
+2023-10-17 15:38:37,328 INFO  t.TestBase [RegistrationTest.java:59] registrationPositiveTest starts with:jessy1710_3@mail.com & 
+2023-10-17 15:38:37,329 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.tagName: button
+2023-10-17 15:38:37,465 INFO  m.WDListener [WDListener.java:26] element with locator --->By.tagName: buttonis found
+2023-10-17 15:38:37,471 INFO  t.TestBase [TestBase.java:24] Finished test ----> registrationPositiveTestCSV
+2023-10-17 15:38:37,472 INFO  t.TestBase [TestBase.java:25] ==================================================
+2023-10-17 15:38:37,473 INFO  t.TestBase [TestBase.java:20] Started test ----> registrationPositiveTestCSV
+2023-10-17 15:38:37,474 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-10-17 15:38:37,483 INFO  m.WDListener [WDListener.java:32] something went wrong!!!
+2023-10-17 15:38:37,483 INFO  m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!}
+  (Session info: chrome=118.0.5993.70): Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:46aa:fd00:505e:1aa9:956f:7c59%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/gq/rwgcn5sx47j...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce1eecaa60ac0930504a60939a5f3531
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-17 15:38:37,483 INFO  m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!}
+  (Session info: chrome=118.0.5993.70): Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:46aa:fd00:505e:1aa9:956f:7c59%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/gq/rwgcn5sx47j...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce1eecaa60ac0930504a60939a5f3531
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-17 15:38:38,036 INFO  m.WDListener [WDListener.java:39] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-2317.png
+2023-10-17 15:38:38,039 INFO  t.TestBase [TestBase.java:24] Finished test ----> registrationPositiveTestCSV
+2023-10-17 15:38:38,039 INFO  t.TestBase [TestBase.java:25] ==================================================
+2023-10-17 15:38:38,040 INFO  t.TestBase [TestBase.java:20] Started test ----> registrationPositiveTestCSV
+2023-10-17 15:38:38,040 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-10-17 15:38:38,054 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //*[.='LOGIN']is found
+2023-10-17 15:38:38,127 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //input[1]
+2023-10-17 15:38:38,134 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //input[1]is found
+2023-10-17 15:38:38,261 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //input[2]
+2023-10-17 15:38:38,272 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //input[2]is found
+2023-10-17 15:38:38,373 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //button[2]
+2023-10-17 15:38:38,389 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //button[2]is found
+2023-10-17 15:38:38,484 INFO  t.TestBase [RegistrationTest.java:59] registrationPositiveTest starts with:jessy1710_5@mail.com & 
+2023-10-17 15:38:38,484 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.tagName: button
+2023-10-17 15:38:38,613 INFO  m.WDListener [WDListener.java:26] element with locator --->By.tagName: buttonis found
+2023-10-17 15:38:38,621 INFO  t.TestBase [TestBase.java:24] Finished test ----> registrationPositiveTestCSV
+2023-10-17 15:38:38,621 INFO  t.TestBase [TestBase.java:25] ==================================================
+2023-10-17 15:38:38,719 INFO  m.ApplicationManager [ApplicationManager.java:51] Test completed

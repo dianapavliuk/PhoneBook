@@ -9,6 +9,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 public class TestBase {
@@ -25,7 +26,7 @@ public class TestBase {
       logger.info("==================================================");
   }
    @BeforeSuite (alwaysRun = true)
-   public void setup(){
+   public void setup() throws IOException {
        app.init();
    }
     //public void init(){

@@ -2,7 +2,6 @@ package tests;
 
 import manager.ProviderData;
 import model.Contact;
-import model.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -13,12 +12,12 @@ public class AddNewContactTests extends TestBase {
 
     @BeforeMethod(alwaysRun = true)
     public void precondition(){
-        if(!app.getHelperUser().isLogged()) app.getHelperUser().login(
-                User.builder()
-                        .email("love@gmail.com")
-                        .password("abC250712#")
-                        .build()
-
+    if(!app.getHelperUser().isLogged()) app.getHelperUser().login(
+//                User.builder()
+//                        .email("love@gmail.com")
+//                        .password("abC250712#")
+//                        .build()
+app.getEmail(), app.getPassword()
         );
     }
 
@@ -39,7 +38,7 @@ public class AddNewContactTests extends TestBase {
         app.getHelperContact().submitContactForm();
         Assert.assertTrue(app.getHelperContact().isContactCreated(contact));
     }
-    @Test(invocationCount = 5, groups = {"positive", "smoke"}, dataProvider = "NewContactDTO", dataProviderClass = ProviderData.class)
+    @Test( groups = {"positive", "smoke"}, dataProvider = "NewContactDTO", dataProviderClass = ProviderData.class)
     public  void addNewContactPositiveNewContactDTO (Contact contact){
 
         app.getHelperContact().openContactForm();
