@@ -57,7 +57,7 @@ public class LoginTests extends TestBase {
         //        .password("abC250712#").build();
         app.getHelperUser().openLoginRegistrationForm();
 
-        //app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().fillLoginRegistrationForm(app.getEmail(), app.getPassword());
 
         app.getHelperUser().submitLogin();
 

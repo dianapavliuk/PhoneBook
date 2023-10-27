@@ -1,0 +1,14 @@
+2023-10-27 19:27:57,509 INFO  m.ApplicationManager [ApplicationManager.java:44] Test started on Chrome
+2023-10-27 19:28:04,698 INFO  m.ApplicationManager [ApplicationManager.java:55] Navigated to the link ---https://telranedu.web.app/home
+2023-10-27 19:28:04,743 INFO  t.TestBase [TestBase.java:21] Started test ----> loginPositiveTestModel
+2023-10-27 19:28:04,744 INFO  m.NGListner [NGListner.java:15] Start og the test --->loginPositiveTestModel
+2023-10-27 19:28:04,746 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-10-27 19:28:04,827 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //*[.='LOGIN']is found
+2023-10-27 19:28:05,174 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //button[1]
+2023-10-27 19:28:05,297 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //button[1]is found
+2023-10-27 19:28:05,504 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.tagName: button
+2023-10-27 19:28:06,746 INFO  m.WDListener [WDListener.java:26] element with locator --->By.tagName: buttonis found
+2023-10-27 19:28:06,750 INFO  m.NGListner [NGListner.java:27] Failure test --->java.lang.AssertionError: expected [true] but found [false]
+2023-10-27 19:28:06,752 INFO  t.TestBase [TestBase.java:25] Finished test ----> loginPositiveTestModel
+2023-10-27 19:28:06,752 INFO  t.TestBase [TestBase.java:26] ==================================================
+2023-10-27 19:28:06,835 INFO  m.ApplicationManager [ApplicationManager.java:65] Test completed

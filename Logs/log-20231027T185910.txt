@@ -1,0 +1,19 @@
+2023-10-27 18:59:11,156 INFO  m.ApplicationManager [ApplicationManager.java:44] Test started on Chrome
+2023-10-27 18:59:18,067 INFO  m.ApplicationManager [ApplicationManager.java:55] Navigated to the link ---https://telranedu.web.app/home
+2023-10-27 18:59:18,107 INFO  t.TestBase [TestBase.java:21] Started test ----> registrationPositiveTest
+2023-10-27 18:59:18,108 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='Sign Out']
+2023-10-27 18:59:21,131 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //*[.='Sign Out']is found
+2023-10-27 18:59:21,132 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //*[.='LOGIN']
+2023-10-27 18:59:21,148 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //*[.='LOGIN']is found
+2023-10-27 18:59:21,501 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //input[1]
+2023-10-27 18:59:21,622 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //input[1]is found
+2023-10-27 18:59:22,241 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //input[2]
+2023-10-27 18:59:22,276 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //input[2]is found
+2023-10-27 18:59:22,515 INFO  t.TestBase [RegistrationTest.java:47] registrationPositiveTest starts with:jessy3561@gmail.com and abC121212#
+2023-10-27 18:59:22,515 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.xpath: //button[2]
+2023-10-27 18:59:22,529 INFO  m.WDListener [WDListener.java:26] element with locator --->By.xpath: //button[2]is found
+2023-10-27 18:59:22,706 INFO  m.WDListener [WDListener.java:20] start searching element by locator --->By.tagName: button
+2023-10-27 18:59:24,642 INFO  m.WDListener [WDListener.java:26] element with locator --->By.tagName: buttonis found
+2023-10-27 18:59:24,648 INFO  t.TestBase [TestBase.java:25] Finished test ----> registrationPositiveTest
+2023-10-27 18:59:24,648 INFO  t.TestBase [TestBase.java:26] ==================================================
+2023-10-27 18:59:24,734 INFO  m.ApplicationManager [ApplicationManager.java:65] Test completed
